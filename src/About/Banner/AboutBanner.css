@@ -1,0 +1,9 @@
+.bannerImage {
+  background-image: url('../../assets/14.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color{
+  background: linear-gradient(168deg,rgb(183, 215, 246) 0%, rgb(186, 217, 248) 100%);
+}
