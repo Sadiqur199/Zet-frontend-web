@@ -8,7 +8,7 @@
 }
 
 .hover-animation {
-  transition:  0.3s ease; 
+  transition:  0.1s ease; 
 }
 .hover-animation:hover {
   transform: scale(0.9);

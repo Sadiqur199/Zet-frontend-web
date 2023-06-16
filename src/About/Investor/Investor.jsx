@@ -32,42 +32,42 @@ const Investor = () => {
             </>
             <div className='my-16 '>
                 <div className='grid md:grid-cols-4 md:gap-12 md:px-4 px-2 gap-2'>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image1} alt="" />
                         <h3 className='text-xl'>Kunal Shah</h3>
                         <p className='text-gray-400 text-xl'>Founder, CRED</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image2} alt="" />
                         <h3 className='text-xl'>Gaurav Munjal</h3>
                         <p className='text-gray-400 text-xl'>Founder, UNACADEMY</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image3} alt="" />
                         <h3 className='text-xl'>Aakrit Vaish</h3>
                         <p className='text-gray-400 text-xl'>Co-Founder, HAPTIK</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image4} alt="" />
                         <h3 className='text-xl'>Harshil Mathur</h3>
                         <p className='text-gray-400 text-xl'>Founder, RAZORPAY</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image5} alt="" />
                         <h3 className='text-xl'>Vidit Aatrey</h3>
                         <p className='text-gray-400 text-xl'>Founder & CEO, MEESHO</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image6} alt="" />
                         <h3 className='text-xl'>Amrish Rau</h3>
                         <p className='text-gray-400 text-xl'>CEO, PINELABS</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image7} alt="" />
                         <h3 className='text-xl'>Lalit Keshre</h3>
                         <p className='text-gray-400 text-xl'>CEO, GROWW</p>
                     </div>
-                    <div>
+                    <div className='hover-investor'>
                         <img className='h-56 w-64' src={image8} alt="" />
                         <h3 className='text-xl'>Gokul Rajaram</h3>
                         <p className='text-gray-400 text-xl'>Product, DOORDASH</p>

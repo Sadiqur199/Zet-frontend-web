@@ -7,3 +7,7 @@
 .bg-color{
   background: linear-gradient(168deg,rgb(183, 215, 246) 0%, rgb(186, 217, 248) 100%);
 }
+.hover-investor:hover {
+  transform: scale(0.9);
+  background-color: white; 
+}
