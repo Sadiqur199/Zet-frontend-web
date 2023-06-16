@@ -1,0 +1,16 @@
+/* .bg-color{
+  background: linear-gradient(168deg,rgb(183, 215, 246) 0%, rgb(186, 217, 248) 100%);
+} */
+.bg-image{
+  background-color: #F0F7FF;
+    background-image: url('../../../src/assets/image9.jpg');
+    background-repeat: no-repeat;
+}
+
+.hover-animation {
+  transition:  0.3s ease; 
+}
+.hover-animation:hover {
+  transform: scale(0.9);
+  background-color: white; 
+}

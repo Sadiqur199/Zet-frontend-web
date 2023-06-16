@@ -18,32 +18,32 @@ const Founders = () => {
                     <div className='grid md:grid-cols-3 md:gap-12 md:px-4 px-2 gap-10 pb-10'>
                         <div>
                             <img className='h-56 w-64' src={image3} alt="" />
-                            <div className='flex justify-between items-center pt-2'>
-                                <div>
+                            <div className='flex  items-center pt-2'>
+                                <div className='ml-2'>
                                     <h3 className='text-xl'>Manish Shara</h3>
                                     <p className=' text-xl'>Co- Founder & CEO</p>
                                 </div>
-                                <FaLinkedin className='w-8 h-8' />
+                                <FaLinkedin className='w-8 h-8 ml-10' />
                             </div>
                         </div>
                         <div>
                             <img className='h-56 w-64' src={image2} alt="" />
-                            <div className='flex justify-between items-center pt-2'>
-                                <div>
+                            <div className='flex  items-center pt-2'>
+                                <div className='ml-2'>
                                     <h3 className='text-xl'>Yash Desai</h3>
                                     <p className='text-xl'>Co- Founder</p>
                                 </div>
-                                <FaLinkedin className='w-8 h-8' />
+                                <FaLinkedin className='w-8 h-8 ml-24' />
                             </div>
                         </div>
                         <div className=''>
                             <img className='h-56 w-64' src={image1} alt="" />
-                            <div className='flex justify-between items-center pt-2'>
-                                <div>
+                            <div className='flex  items-center pt-2'>
+                                <div className='ml-2'>
                                     <h3 className='text-xl'>Lokesh Agarwal</h3>
                                     <p className=' text-xl'>CTO</p>
                                 </div>
-                                <FaLinkedin className='w-8 h-8' />
+                                <FaLinkedin className='w-8 h-8 ml-20' />
                             </div>
                         </div>
                     </div>
