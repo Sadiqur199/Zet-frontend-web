@@ -1,0 +1,14 @@
+.image-set{
+  background-image: url('../../assets/image9.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image-set{
+    background-image: url('../../assets/image9.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+  }
+}
