@@ -9,7 +9,7 @@ import { MotionAnimate } from 'react-motion-animate'
 
 const Product = () => {
   return (
-    <div className='p-16 bg-image'>
+    <div className='md:p-16 md:pl-0 pl-5 bg-image'>
       <div className='text-center mb-6'>
         <h1 className='font-bold text-xl'>Products on ZET</h1>
         <p>We are trusted by best brand in the country</p>
@@ -23,7 +23,7 @@ const Product = () => {
        speed={1}>
       <div className='grid md:grid-cols-2 gap-4'>
         <div className="card card-side bg-[#F1F8FF] shadow-xl h-[200px] hover-animation">
-          <figure><img className='h-[150px] w-[150px] ml-10' src={img1} alt="Movie" /></figure>
+          <figure><img className='h-[150px] w-[150px] ml-10' src={img1} alt="" /></figure>
           <div className="card-body m-5">
             <h2 className="card-title">CREDIT CARDS</h2>
             <p>100% Contactless Application Process with Instant Approval From Top Banks.</p>

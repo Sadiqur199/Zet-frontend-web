@@ -13,7 +13,7 @@ const Choose = () => {
   return (
     <>
     <MotionAnimate animation='fadeInUp' reset={true}>
-    <div className='grid md:grid-cols-2 gap-2 mt-10 mb-16 md:ml-0 ml-36'>
+    <div className='grid md:grid-cols-2 gap-2 mt-10 mb-16 md:ml-0 ml-5'>
       <div className='mb-4 image-set  md:ml-72 mt-10'>
        <div className='mt-10 md:ml-28'>
        <h1 className='font-bold text-xl'>Why <span className='text-[#2175F1]'>Choose Us</span></h1>

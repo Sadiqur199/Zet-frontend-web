@@ -3,7 +3,7 @@ import './AboutBanner.css'
 
 const AboutBanner = () => {
     return (
-        <div className='bannerImage text-white flex items-center justify-center p-40'>
+        <div className='bannerImage text-white flex items-center justify-center p-60'>
             <div className='text-center'>
                 <h2 className='text-4xl font-bold'>OUR MISSION</h2>
                 <p className='py-4 text-xl '>Enabling financial inclusion for the next billion Indians <br />
